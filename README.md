@@ -5,10 +5,6 @@ Overview The #GR4M Data Scraper is a Python script designed to extract specific 
 - Extracts post details including date, content, hashtags, likes, comments, and image URLs.
 - Reads URLs from a text file within the same directory.
 - Saves the extracted data in CSV format.
-
-## Requirements
-- Python 3.x
-- Libraries: requests, BeautifulSoup, pandas
     
 ## How to Run
 Install Dependencies: Make sure to install the required libraries by running:
@@ -19,7 +15,8 @@ pip install beautifulsoup4
 pip install pandas
 ```
 
-Prepare URLs File: Create a text file named urls.txt in the same directory as the script Add the URLs of the #GR4M posts you want to scrape, one URL per line.
+- Prepare URLs File: Create a text file named urls.txt in the same directory as the script Add the URLs of the #GR4M posts you want to scrape, one URL per line.
+- YOU DO NEED TO CHANGE 'XXX' INTO GR4Ms.
 
 ## Run the Script
 Execute the script by running the following command in your terminal:
