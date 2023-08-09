@@ -9,19 +9,16 @@ Overview The #GR4M Data Scraper is a Python script designed to extract specific 
 ## Requirements
 - Python 3.x
 - Libraries: requests, BeautifulSoup, pandas
+    
+## How to Run
+Install Dependencies: Make sure to install the required libraries by running:
 
 ```bash
 pip install requests
 pip install beautifulsoup4
 pip install pandas
 ```
-    
-## How to Run
-Install Dependencies: Make sure to install the required libraries by running:
 
-```bash
-pip install requests beautifulsoup4 pandas matplotlib
-```
 Prepare URLs File: Create a text file named urls.txt in the same directory as the script Add the URLs of the #GR4M posts you want to scrape, one URL per line.
 
 ## Run the Script
