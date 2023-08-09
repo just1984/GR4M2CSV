@@ -8,13 +8,10 @@ Overview The #GR4M Data Scraper is a Python script designed to extract specific 
 - Reads URLs from a text file within the same directory.
 - Saves the extracted data in CSV format.
 
-
 ## Requirements
 
-```bash
 - Python 3.x
 - Libraries: requests, BeautifulSoup, pandas, matplotlib (optional for image display)
-```
     
 ## How to Run
 Install Dependencies: Make sure to install the required libraries by running:
